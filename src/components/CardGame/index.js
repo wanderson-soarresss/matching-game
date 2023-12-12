@@ -1,7 +1,7 @@
 function CardGame() {
    return `
    <article>
-     CardGame 
+     CardGame - oi 
    </article>
    `
 }
