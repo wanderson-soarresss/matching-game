@@ -1,3 +1,8 @@
-const $root = document.querySelector("#root");
+import CardGame from "./src/components/CardGame";
 
-$root.textContent = "wanderson soares";
+const $root = document.querySelector("#root");
+const $htmlCardGame = CardGame()
+
+console.log($htmlCardGame);
+
+$root.innerHTML = $htmlCardGame;
